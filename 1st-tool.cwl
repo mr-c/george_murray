@@ -1,4 +1,4 @@
-//commonwl tutorial 1
+##commonwl tutorial 1
 
 #!/usr/bin/env cwl-runner
 
