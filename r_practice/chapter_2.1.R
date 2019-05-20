@@ -186,3 +186,10 @@ x-6
 
 rep(c(1,2,3), times=c(3,2,1))
 c(1:5, 4:1)
+
+#2.5
+seq(2, 19, by=(n-1))
+
+#2.6
+rivers
+(sum(rivers) - mean(rivers)) / length(rivers)
