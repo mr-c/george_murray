@@ -49,3 +49,34 @@ range(wts)
 
 #distance between min and max
 diff(range(wts))
+var(wts)
+sum( (wts - mean(wts))^2) / (length(wts)-1)
+
+#variability
+hip_cost
+hip_cost <- c(10500, 45000, 74100, NA, 83500, 86000, 38200, NA, 44300, 12500, 55700, 43900, 71900, NA, 62000)
+range(hip_cost, na.rm = TRUE)
+sd(hip_cost, na.rm = TRUE)
+
+#z-score describes size of a value relative to the size of other values in the same set
+z_score <- function(x) (x - mean(x))/sd(x)
+z_score(wts)
+#this reminds me of fold change in expression data
+
+grades <- c(54, 50, 79, 79, 51, 69, 55, 62, 100, 99)
+z_score_grades <- (grades - mean(grades))/sd(grades)
+grades[z_score_grades >= 1.28]
+
+mean(grades) + 1.28 * sd(grades)
+
+require(UsingR)
+require(exec.pay)
+exec.pay
+
+#computing a proportion
+z <- (exec.pay - mean(exec.pay))/sd(exec.pay)
+out <- abs(z) > 3
+sum(out) / length(z)
+
+#coefficient of variation
+sd(exec.pay)/mean(exec.pay)
