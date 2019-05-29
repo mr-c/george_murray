@@ -1,6 +1,7 @@
 #loading necessary packages
 import pandas as pd
 import quandl
+import math
 #pulling data from quandl and displaying dataframe
 df = quandl.get('WIKI/GOOGL')
 #reorganizing dataframe to display only information I want
@@ -11,4 +12,12 @@ df['PCT_change'] = (df['Adj. Close'] - df['Adj. Open']) / df['Adj. Open'] * 100.
 
 df = df[['Adj. Close', 'HL_PCT', 'PCT_change', 'Adj. Volume']]
 
+forecast_col = 'Adj. Close'
+#this will treat the na value as an outlier which can be removed
+df.fillna('-99999', inplace=True)
+
+forecast_out = int(math.ceil(0.01*len(df)))
+
+df['label'] = df[forecast_col].shift(-forecast_out)
+df.dropna(inplace=True)
 print(df.head())
