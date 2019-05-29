@@ -80,3 +80,45 @@ sum(out) / length(z)
 
 #coefficient of variation
 sd(exec.pay)/mean(exec.pay)
+
+#interquartile range
+median(rivers)
+IQR(rivers)
+IQR(rivers) / sd(rivers)
+sort(rivers)
+
+#median absolute deviation (mad)
+mad(rivers)/sd(rivers)
+kids.weight
+(UsingR)
+require(UsingR)
+
+ht <- kid.weights$height
+mad(ht)/sd(ht)
+
+#skewness
+
+skew <- function(x) {
+  n <- length(x)
+  z <- (x - mean(x))/sd(x)
+  sum(z^3) / n
+}
+
+skew(exec.pay)
+
+four_year_hts <- kid.weights[kid.weights$age %in% 48:59, "height"]
+skew(four_year_hts)
+
+#sample excess kurtosis - a measure of the tails in a dataset
+kurtosis <- function(x) {
+  n <- length(x)
+  z <- (x - mean(x)) / sd(x)
+  sum(z^4)/n - 3
+}
+kurtosis(galton$parent)
+
+stripchart(exec.pay)
+stripchart(rivers)
+stem(exec.pay)
+
+stem(bumpers)
