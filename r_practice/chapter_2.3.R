@@ -122,3 +122,35 @@ stripchart(rivers)
 stem(exec.pay)
 
 stem(bumpers)
+
+hist(faithful$waiting)
+
+bins <- seq(40, 100, by=5)
+x <- faithful$waiting
+out <- cut(x, breaks=bins)
+head(out)
+table(out)
+
+?colors
+
+mypalette <- brewer.pal(7,"Greens")
+brewer.pal(n, name)
+require(brewer.pal)
+require(RColorBrewer)
+mypalette<-brewer.pal(7, "Greens")
+image(1:7,1,as.matrix(1:7),col=mypalette,xlab="Greens (sequential)", 
+      ylab="",xaxt="n",bty="n")
+
+plot( density(bumpers))
+
+#layer a density plot over a histrogram 
+
+b_hist <- hist(bumpers, plot=FALSE)
+b_dens <- density(bumpers)
+
+hist(bumpers, probability = TRUE,
+     xlim = range(c(b_hist$breaks, b_dens$x)),
+     ylim = range(c(b_hist$density, b_dens$y)))
+lines(b_dens, lwd=2)
+
+boxplot(bumpers, horizontal=TRUE, main="Bumpers")
