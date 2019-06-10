@@ -154,3 +154,33 @@ hist(bumpers, probability = TRUE,
 lines(b_dens, lwd=2)
 
 boxplot(bumpers, horizontal=TRUE, main="Bumpers")
+
+#producing quantile-nroaml plots to represent distribution, relatively straight line indicates a normal distribution
+x <- rep(Macdonell$finger, Macdonell$frequency)
+qqnorm(x)
+
+x <- jitter(HistData::Galton$child, factor=5)
+qqnorm(x)
+
+beatles
+require(LearnEDA)
+require(beatles)
+LearnEDA
+DDT
+
+mean(as.numeric(ChestSizes, na.rm = TRUE))
+table(ChestSizes)
+table(ChestSizes) 
+
+new_mean <- function(x) {
+  sum(x)/length(x)
+}
+new_mean(ChestSizes)
+
+hist(firstchi, probability = TRUE,
+     xlim = range(c(b_hist$breaks, b_dens$x)),
+     ylim = range(c(b_hist$density, b_dens$y)))
+
+firstchi
+
+
