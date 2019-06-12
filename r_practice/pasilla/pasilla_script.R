@@ -82,7 +82,7 @@ cim(mat.dist, color = rev(hmcol), symkey = FALSE, margins = c(9, 9))
 
 # Principle Component Analysis #
 ##### NOT WORKING ######
-require(limma)
+'''require(limma)
 pseudoCount2 <- as.matrix(pseudoCount)
 
 # defining f(x) coerce pseudoCount2 to integer matrix
@@ -110,9 +110,16 @@ pca = prcomp(t(pseudoCount2[select, ]))
 annot = AnnotatedDataFrame(data = data.frame(condition, libType,
                                              row.names = colnames(pseudoCount2)))
 expSet = new("ExpressionSet", exprs = as.matrix(pseudoCount2), phenoData = annot)
-plotPCA("Expressionset")
+plotPCA("Expressionset")'''
 ##### NOT WORKING ######
+rv = rowVars(pseudoCount2)
+select = order(rv, decreasing = TRUE)[1:1000]
+pca = prcomp(t(pseudoCount2[select, ]))
 
+annot = AnnotatedDataFrame(data = data.frame(condition, libType,
+                                             row.names = colnames(pseudoCount2)))
+expSet = new("ExpressionSet", exprs = as.matrix(pseudoCount2), phenoData = annot)
+plotPCA(expSet, intgroup = c("condition", "libType"))
 ##MDS
 x = pseudoCount
 s = rowMeans((x - rowMeans(x))^2)
