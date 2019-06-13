@@ -1,0 +1,25 @@
+
+****************** gen_matrix ********************************************************
+
+The tool generates a matrix file under the specified --outdir  .
+
+***************************************************************************************
+    
+Output Directory: /s3-drives/biocore-software/internal/fungene/matrix
+Results File: /s3-drives/biocore-software/internal/fungene/matrix/gen_matrix.gene_id.expected_count.txt
+Target Colunm index: 4
+Colunm index of rowIDs: 0
+Round results: False
+Input Files Count: 6
+Input Files List:
+==
+FileID	FileName	ColunmsCount	RowsCount	RowIDsHeader	TargetColunmHeader
+f1	/s3-drives/biocore-data/scratch/rna-seq/JimCoffman/jcoffman_001.embryo_cortisol_2015/jcoffman_001_1559678964/SL94881/SL94881_1_C6EG6ANXX_s1_GSLv3-7_55.trimmed.fastq.star2.rsem.genes.results	7	32058	gene_id	expected_count
+f2	/s3-drives/biocore-data/scratch/rna-seq/JimCoffman/jcoffman_001.embryo_cortisol_2015/jcoffman_001_1559678964/SL94882/SL94882_1_C6EG6ANXX_s1_GSLv3-7_56.trimmed.fastq.star2.rsem.genes.results	7	32058	gene_id	expected_count
+f3	/s3-drives/biocore-data/scratch/rna-seq/JimCoffman/jcoffman_001.embryo_cortisol_2015/jcoffman_001_1559678964/SL94883/SL94883_1_C6EG6ANXX_s1_GSLv3-7_57.trimmed.fastq.star2.rsem.genes.results	7	32058	gene_id	expected_count
+f4	/s3-drives/biocore-data/scratch/rna-seq/JimCoffman/jcoffman_001.embryo_cortisol_2015/jcoffman_001_1559678964/SL94884/SL94884_1_C6EG6ANXX_s1_GSLv3-7_58.trimmed.fastq.star2.rsem.genes.results	7	32058	gene_id	expected_count
+f5	/s3-drives/biocore-data/scratch/rna-seq/JimCoffman/jcoffman_001.embryo_cortisol_2015/jcoffman_001_1559678964/SL94885/SL94885_1_C6EG6ANXX_s1_GSLv3-7_59.trimmed.fastq.star2.rsem.genes.results	7	32058	gene_id	expected_count
+f6	/s3-drives/biocore-data/scratch/rna-seq/JimCoffman/jcoffman_001.embryo_cortisol_2015/jcoffman_001_1559678964/SL94886/SL94886_1_C6EG6ANXX_s1_GSLv3-7_60.trimmed.fastq.star2.rsem.genes.results	7	32058	gene_id	expected_count
+Program Started: 2019-06-12 13:49:44.825237
+==
+Program Ended: 2019-06-12 13:49:56.049184
