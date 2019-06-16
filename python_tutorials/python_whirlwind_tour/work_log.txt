@@ -1,0 +1,10 @@
+A Whirlwind Tour of Python by Jake VanderPlas
+
+2019_06_15, 40 min
+    Introduction
+    How to Run Python Code
+    Created Jupytr Notebook in GitHub Repo
+    Basic Python Syntax
+    Python Semantics: Variables
+
+Next Up: Python Semantics: Operators
