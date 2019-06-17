@@ -9,11 +9,15 @@ https://jakevdp.github.io/WhirlwindTourOfPython/
     Basic Python Syntax
     Python Semantics: Variables
     
-2019_06_15, 30 min
+2019_06_16, 30 min
     Link Added to Worklog
     Python Semantics: Operators
     Identified Several YouTube lecture series on linear algebra (bookmarked). 
     Python Semantics: Operators
     Built-In Types: Simple Values (Through Integer)
     
-Next Up: Built-In Types: Simple Values (Floating - Point Numbers)
+2019_06_17, 40 min
+    Built-In Types: Simple Values
+    Built-In Types: Data Structures
+    
+Next Up: Control Flow Statements
