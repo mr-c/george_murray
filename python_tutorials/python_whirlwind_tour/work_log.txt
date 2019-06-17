@@ -1,10 +1,19 @@
 A Whirlwind Tour of Python by Jake VanderPlas
+https://jakevdp.github.io/WhirlwindTourOfPython/
 
 2019_06_15, 40 min
+    Worklog Created
     Introduction
     How to Run Python Code
     Created Jupytr Notebook in GitHub Repo
     Basic Python Syntax
     Python Semantics: Variables
-
-Next Up: Python Semantics: Operators
+    
+2019_06_15, 30 min
+    Link Added to Worklog
+    Python Semantics: Operators
+    Identified Several YouTube lecture series on linear algebra (bookmarked). 
+    Python Semantics: Operators
+    Built-In Types: Simple Values (Through Integer)
+    
+Next Up: Built-In Types: Simple Values (Floating - Point Numbers)
