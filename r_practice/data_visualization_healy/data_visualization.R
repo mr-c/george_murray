@@ -9,3 +9,4 @@ my_packages <- c("tidyverse", "broom", "coefplot", "cowplot", "gapminder",
 install.packages(my_packages, repos = "http://cran.rstudio.com")
 devtools::install_github("kjhealy/socviz")
 anscombe
+
