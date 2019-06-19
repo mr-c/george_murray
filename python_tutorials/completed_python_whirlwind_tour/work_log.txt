@@ -20,4 +20,16 @@ https://jakevdp.github.io/WhirlwindTourOfPython/
     Built-In Types: Simple Values
     Built-In Types: Data Structures
     
-Next Up: Control Flow Statements
+2019_06_18, 180 min
+    Control Flow Statements
+    Defining Functions
+    Errors and Exceptions
+    Iterators
+    List Comprehensions
+    Generators
+    Modules and Packages
+    String Manipulation and Regular Expressions
+    
+ 2019_06_19, 20 min
+     A Preview of Data Science Tools
+     Completed
