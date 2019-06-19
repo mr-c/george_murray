@@ -1,0 +1,10 @@
+Work Log
+
+2019-06-19, 40 min
+    Work Log Created
+    Help and Documentation in IPython
+    Keyboard Shortcuts in the IPython Shell
+    IPython Magic Commands
+    Input and Output History
+    
+Next: IPython and Shell Commands
