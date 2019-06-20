@@ -7,4 +7,10 @@ Work Log
     IPython Magic Commands
     Input and Output History
     
-Next: IPython and Shell Commands
+2019-06-20, 80 min
+    Decision Made: Skip to NumPy Introduction
+    Understanding Data Types in Python
+    The Basics of NumPy Arrays
+    
+
+Next: Computation on NumPy Arrays: Universal Functions
