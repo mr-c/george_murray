@@ -1,4 +1,5 @@
 Work Log
+https://jakevdp.github.io/PythonDataScienceHandbook/
 
 2019-06-19, 40 min
     Work Log Created
@@ -12,5 +13,7 @@ Work Log
     Understanding Data Types in Python
     The Basics of NumPy Arrays
     
+2019-06-20, 45 min
+    Computation on NumPy Arrays: Universal Functions
 
-Next: Computation on NumPy Arrays: Universal Functions
+Next: Aggregations: Min, Max, and Everything in Between
