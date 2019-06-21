@@ -51,3 +51,15 @@ titanic_tb
 
 str(my_numbers)
 str(my_summary)
+
+url <- "https://cdn.rawgit.com/kjhealy/viz-organdata/master/organdonation.csv"
+organs <- read_csv(file = url)
+
+library(gapminder)
+gapminder
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap, y = lifeExp))
+p + geom_point()
+gapminder_gdpPercap_sort <- order(gapminder$gdpPercap)
+as.matrix(gapminder_gdpPercap_sort)
+
