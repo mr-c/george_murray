@@ -1,5 +1,18 @@
+https://www.commonwl.org/user_guide
+
+2019_06_24
+    Returning Output Files
+    Capturing Standard Output
+    Parameter References
+    Running Tools Inside Docker
+    Additional Arguments and Parameters
+    Array Inputs
+    Array Outputs
+    Advanced Inputs
+
+
 2019_06_21
     Introduction
     Essential Input Parameters
 
-Up Next: Returning Output Files
+Up Next: Environmental Variables
