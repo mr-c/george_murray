@@ -1,5 +1,14 @@
 https://www.commonwl.org/user_guide
 
+2019_06_25
+    Environmental Variables
+    JavaScript Expressions
+    Creating Files at Runtime
+    Staging Input Files
+    File Formats
+    Metadata and Authorship
+    Custom Types
+
 2019_06_24
     Returning Output Files
     Capturing Standard Output
@@ -15,4 +24,4 @@ https://www.commonwl.org/user_guide
     Introduction
     Essential Input Parameters
 
-Up Next: Environmental Variables
+Up Next: Specifying Software Requirements

@@ -1,6 +1,18 @@
 Work Log
 https://jakevdp.github.io/PythonDataScienceHandbook/
 
+2019-06-25, 60 min
+    Aggregations: Min, Max, and Everything in Between
+    Computation on Arrays: Broadcasting / Comparison Operators as ufuncs
+    
+2019-06-21, 45 min
+    Computation on NumPy Arrays: Universal Functions
+
+2019-06-20, 80 min
+    Decision Made: Skip to NumPy Introduction
+    Understanding Data Types in Python
+    The Basics of NumPy Arrays
+
 2019-06-19, 40 min
     Work Log Created
     Help and Documentation in IPython
@@ -8,12 +20,7 @@ https://jakevdp.github.io/PythonDataScienceHandbook/
     IPython Magic Commands
     Input and Output History
     
-2019-06-20, 80 min
-    Decision Made: Skip to NumPy Introduction
-    Understanding Data Types in Python
-    The Basics of NumPy Arrays
-    
-2019-06-20, 45 min
-    Computation on NumPy Arrays: Universal Functions
 
-Next: Aggregations: Min, Max, and Everything in Between
+  
+
+Next: Comparisons, Masks, and Boolean Logic / Working with Boolean Arrays

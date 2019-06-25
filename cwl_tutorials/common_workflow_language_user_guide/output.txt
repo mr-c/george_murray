@@ -1,1 +1,1 @@
--A one -B two -D four
+       0 /private/var/folders/64/mrgpx6w112n0j0f89nsfqxb00000gp/T/tmpq1523c1m/stgffa1ce08-dcb1-4de8-bf22-60d2d70545dc/file-formats.bam
