@@ -1,7 +1,10 @@
 Work Log
 https://jakevdp.github.io/PythonDataScienceHandbook/
 
-Next: Fancy Indexing
+Next: Sorting Arrays
+
+2019-06-28, 30 min
+    Fancy Indexing
 
 2019-06-27, 40 min
     Comparisons, Masks, and Boolean Logic
