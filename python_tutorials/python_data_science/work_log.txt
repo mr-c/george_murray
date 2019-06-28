@@ -1,6 +1,11 @@
 Work Log
 https://jakevdp.github.io/PythonDataScienceHandbook/
 
+Next: Fancy Indexing
+
+2019-06-27, 40 min
+    Comparisons, Masks, and Boolean Logic
+
 2019-06-25, 60 min
     Aggregations: Min, Max, and Everything in Between
     Computation on Arrays: Broadcasting / Comparison Operators as ufuncs
@@ -20,7 +25,3 @@ https://jakevdp.github.io/PythonDataScienceHandbook/
     IPython Magic Commands
     Input and Output History
     
-
-  
-
-Next: Comparisons, Masks, and Boolean Logic / Working with Boolean Arrays

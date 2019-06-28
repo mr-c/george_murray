@@ -36,9 +36,6 @@ inputs:
    nthreads:
      default: 1
      type: int
-   outFilterMultimapNmax:
-     default: 10
-     type: int
 outputs:
    star_aligned_unsorted_file:
      doc: STAR mapped unsorted file.

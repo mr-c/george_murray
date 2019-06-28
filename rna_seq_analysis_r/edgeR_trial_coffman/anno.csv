@@ -1,0 +1,7 @@
+sample,condition,type
+f1.expected_count,control,paired-end
+f2.expected_count,control,paired-end
+f3.expected_count,treated,paired-end
+f4.expected_count,treated,paired-end
+f5.expected_count,treated,paired-end
+f6.expected_count,control,paired-end

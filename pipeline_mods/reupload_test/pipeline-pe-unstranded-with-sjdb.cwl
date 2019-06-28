@@ -57,9 +57,6 @@ inputs:
    sjdbOverhang:
      doc: Length of the genomic sequence around the annotated junction to be used in constructing the splice junctions database.
      type: string
-   outFilterMultimapNmax:
-     doc: Maximum number of loci the read is allowed to map to. 
-     type: int
 outputs:
    output_fastqc_report_files_read1:
      doc: FastQC reports in zip format for paired read 1
@@ -233,7 +230,6 @@ steps:
        annotation_file: annotation_file
        sjdbOverhang: sjdbOverhang
        nthreads: nthreads_map
-       outFilterMultimapNmax
      run: 03-map-pe-with-sjdb.cwl
      out:
      - star_aligned_sorted_file
