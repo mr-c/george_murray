@@ -36,6 +36,9 @@ inputs:
    nthreads:
      default: 1
      type: int
+   outFilterMismatchNoverReadLmax:
+     default: 0.04
+     type: float 
 outputs:
    star_aligned_unsorted_file:
      doc: STAR mapped unsorted file.

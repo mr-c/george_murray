@@ -1,7 +1,27 @@
 Work Log
 https://jakevdp.github.io/PythonDataScienceHandbook/
 
-Next: Sorting Arrays
+Next: 
+
+2019-07-07, 50 min
+    Combining Datasets: Concat and Append
+    Combining Datasets: Merge and Join
+
+2019-07-05, 45 min
+    Hierarchial Indexing
+
+2019-07-04, 80 min
+    Introducing Pandas Objects
+    Indexing and Selection
+    Operating on Data in Pandas
+    Handling Missing Data
+
+2019-07-03, 30 min
+    Introducing Pandas Objects
+
+2019-06-30, 45 min
+    Sorting Arrays
+    Structured Data" NumPy's Structure Arrays
 
 2019-06-28, 30 min
     Fancy Indexing
