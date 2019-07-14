@@ -1,7 +1,10 @@
 Work Log
 https://jakevdp.github.io/PythonDataScienceHandbook/
 
-Next: 
+Next: Pivot Tables
+
+2019-07-13, 40 min
+    Aggregation and Grouping
 
 2019-07-07, 50 min
     Combining Datasets: Concat and Append
