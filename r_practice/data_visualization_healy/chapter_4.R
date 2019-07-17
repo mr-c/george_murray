@@ -31,4 +31,4 @@ p <- ggplot(data = gss_sm,
 p + geom_point(alpha = 0.2) +
     geom_smooth() +
     facet_grid(sex ~ race)
-
+head(gss_sm)
